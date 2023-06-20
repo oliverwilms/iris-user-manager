@@ -16,7 +16,8 @@ If ($Data(%request.Data("checkbox",2))) {
 Set ^TEST($I(^TEST)) = $ZDateTime($NOW(),8,1,3)_" : "_$JOB_" : iUser2="_$Get(iUser2)
 Set tFilename = ##class(User.UserManager).GetUserExport(,iUser1)
 Set tFile = $ZU(12)_tFilename
-Set x = ##class(User.UserManager).ReadFile(tFile)
+Set tExportData = ##class(User.UserManager).ReadFile(tFile)
+Set myExportData = ##class(%CSP.Page).EscapeHTML(tExportData)
 </script>
 <!-- Put your page Title here -->
 <title>	User Manager </title>
@@ -107,7 +108,11 @@ body { font-family: "Source Sans Pro",Futura,Arial,sans-serif; }
 						Set tReturn = $CLASSMETHOD(tClassname,tClassMethod,.pUserData)
 						</script>
 					</table>
-				</td></tr>
+				</td>
+				<td>
+					#($Get(myExportData))#
+				</td>
+				</tr>
 				<tr><td>
 					<input type="submit" value="Submit">
 				</td></tr>
