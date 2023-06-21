@@ -3,7 +3,7 @@
   <Document name="iris-user-manager.ZPM">
     <Module>
       <Name>iris-user-manager</Name>
-      <Version>1.0.38</Version>
+      <Version>1.0.39</Version>
       <Description>InterSystems IRIS User Manager</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
