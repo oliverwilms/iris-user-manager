@@ -14,10 +14,12 @@ If ($Data(%request.Data("checkbox",2))) {
 	Set iUser2 = %request.Data("checkbox",2)
 }
 Set ^TEST($I(^TEST)) = $ZDateTime($NOW(),8,1,3)_" : "_$JOB_" : iUser2="_$Get(iUser2)
-Set tFilename = ##class(User.UserManager).GetUserExport(,iUser1)
-Set tFile = $ZU(12)_tFilename
-Set tExportData = ##class(User.UserManager).ReadFile(tFile)
-Set myExportData = ##class(%CSP.Page).EscapeHTML(tExportData)
+If ($Get(iUser1) '= "") {
+	Set tFilename = ##class(User.UserManager).GetUserExport(,iUser1)
+	Set tFile = $ZU(12)_tFilename
+	Set tExportData = ##class(User.UserManager).ReadFile(tFile)
+	Set myExportData = ##class(%CSP.Page).EscapeHTML(tExportData)
+}
 </script>
 <!-- Put your page Title here -->
 <title>	User Manager </title>
