@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="dc-sample.ZPM">
+  <Document name="iris-user-manager.ZPM">
     <Module>
-      <Name>dc-sample</Name>
+      <Name>iris-user-manager</Name>
       <Version>1.0.33</Version>
-      <Description>Basic InterSystems IRIS Development Template</Description>
+      <Description>InterSystems IRIS User Manager</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="dc.sample.PKG"/>
+      <Resource Name="User.PKG"/>
       <UnitTest Name="/tests" Package="dc.sample.unittests" Phase="test"/>
 
     </Module>
