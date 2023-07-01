@@ -90,6 +90,10 @@ IRISAPP>write ##class(dc.sample.PersistentClass).ReadProperty(id)
 Test string
 ```
 
+## What is next?
+
+Add or update %ZSTART routine to import User data. I have implemented the User import as a task previously. More details to come.
+
 ## How to start the development
 
 This repository is ready to code in VSCode with the ObjectScript plugin.
