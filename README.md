@@ -4,6 +4,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat&logo=AdGuard)](LICENSE)
 # iris-user-manager
+I have described the inspiration for this project here - [Article](https://community.intersystems.com/post/idea-iris-user-manager)
+
+
 This is a basic template for a development environment to work with ObjectScript in InterSystems IRIS. It helps you edit, compile, commit/push, debug and test your ObjectScript code. It also aids in packaging your application as a module installable with IPM.
 The template is embedded python compatible.
 
