@@ -95,7 +95,7 @@ body { font-family: "Source Sans Pro",Futura,Arial,sans-serif; }
 		<div class="portalLogoBox">
 			<img class="portalLogo" src="portal/HealthShareLogo210x50.png" alt="HealthShare">
 		</div>
-		<div class="portalName">#($Get(pName,"IRIS Interface Monitor"))#</div>
+		<div class="portalName">#($Get(pName,"IRIS User Manager"))#</div>
 	</div>
 
 	<div id="content_area" class="content_area">
