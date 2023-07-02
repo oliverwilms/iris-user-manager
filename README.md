@@ -20,8 +20,7 @@ This repository provides a ready-to-go development environment for coding produc
 * Ready for embedded python development: ENV varialbes are set up, CallIn service is On, all modules in requirements.txt will be installed during docker build.
 
 ## Usage
-Start a new dev repository with InterSystems IRIS using this one as a template.
-Once you clone the new repo to your laptop and open VSCode (with the [InterSystems ObjectScript Extension Pack](https://marketplace.visualstudio.com/items?itemName=intersystems-community.objectscript-pack) installed) you'll be able to start development immediately.
+[Create a new user definition](https://iris-user-manager.demo.community.intersystems.com/csp/sys/sec/%25CSP.UI.Portal.User.zen?PID=) using the Online Demo. Enter a username. Copy from _SYSTEM which has %All role. Enter the full user name. Click the radio button to enter a new password. Click the Save button to save your new user.
 
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
