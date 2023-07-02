@@ -22,6 +22,8 @@ This repository provides a ready-to-go development environment for coding produc
 ## Usage
 [Create a new user definition](https://iris-user-manager.demo.community.intersystems.com/csp/sys/sec/%25CSP.UI.Portal.User.zen?PID=) using the Online Demo. Enter a username. Copy from _SYSTEM which has %All role. Enter the full user name. Click the radio button to enter a new password. Click the Save button to save your new user.
 
+Go to [User Export](https://iris-user-manager.demo.community.intersystems.com/csp/user/usexport.csp) webpage. Check the box for users you want to export and click the Submit button. Copy / paste the xml into a file.
+
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
 
