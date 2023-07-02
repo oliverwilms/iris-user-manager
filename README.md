@@ -24,6 +24,8 @@ This repository provides a ready-to-go development environment for coding produc
 
 Go to [User Export](https://iris-user-manager.demo.community.intersystems.com/csp/user/usexport.csp) webpage. Check the box for users you want to export and click the Submit button. Copy / paste the xml into a file.
 
+![screenshot](https://github.com/oliverwilms/bilder/blob/main/iris-user-manager_usexport_csp.png)
+
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
 
