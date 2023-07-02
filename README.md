@@ -7,7 +7,8 @@
 I have described the inspiration for this project here - [Article](https://community.intersystems.com/post/idea-iris-user-manager)
 
 ## Online Demo
-You can find online demo here - [User Export](https://iris-user-manager.demo.community.intersystems.com/csp/user/usexport.csp) or [Management Portal](https://iris-user-manager.demo.community.intersystems.com/csp/sys/UtilHome.csp)
+You can find online demo here - [Create a new user definition](https://iris-user-manager.demo.community.intersystems.com/csp/sys/sec/%25CSP.UI.Portal.User.zen?PID=) or
+[User Export](https://iris-user-manager.demo.community.intersystems.com/csp/user/usexport.csp) or [Management Portal](https://iris-user-manager.demo.community.intersystems.com/csp/sys/UtilHome.csp)
 
 ## Description
 This repository provides a ready-to-go development environment for coding productively with InterSystems ObjectScript. This template:
