@@ -8,7 +8,7 @@
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="User.PKG"/>
-      <UnitTest Name="/tests" Package="dc.sample.unittests" Phase="test"/>
+      <UnitTest Name="/tests" Package="User.Testcases" Phase="test"/>
       <FileCopy Name="csp/" Target="${cspdir}user/"/>
     </Module>
   </Document>
