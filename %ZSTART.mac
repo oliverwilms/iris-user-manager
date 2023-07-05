@@ -1,0 +1,24 @@
+ROUTINE %ZSTART
+%ZSTART ; User startup routine
+	Quit
+SYSTEM ; InterSystems IRIS starting
+	New
+	Try {
+		//Create users from secret mounted as a volume
+		If ##class(%File).DirectoryExists("/opt/users") {
+			Set tSC = ##class(Users.Tasks.ImportUsersTask).RunNow()
+			$$$ThrowOnError(tSC)
+			Do ##class(%SYS.System).WriteToConsoleLog("%ZSTART Routine: "_"Import Users",0,0)
+		}
+	} Catch { }
+	Quit
+LOGIN ; a user logs into InterSystems IRIS
+	Quit
+JOB ; JOB'd process begins
+	Quit
+	New
+	Try {
+	} Catch { }
+	Quit
+CALLIN ; process enters via CALLIN interface
+	Quit
