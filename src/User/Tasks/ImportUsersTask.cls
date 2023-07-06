@@ -1,4 +1,4 @@
-TasksClass User.Tasks.ImportUsersTask Extends %SYS.Task.Definition
+Class User.Tasks.ImportUsersTask Extends %SYS.Task.Definition
 {
 
 Parameter TaskName = "Import IRIS Users";
