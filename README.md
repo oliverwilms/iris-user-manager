@@ -10,15 +10,6 @@ I have described the inspiration for this project here - [Article](https://commu
 You can find online demo here - [Create a new user definition](https://iris-user-manager.demo.community.intersystems.com/csp/sys/sec/%25CSP.UI.Portal.User.zen?PID=) or
 [User Export](https://iris-user-manager.demo.community.intersystems.com/csp/user/usexport.csp) or [Management Portal](https://iris-user-manager.demo.community.intersystems.com/csp/sys/UtilHome.csp)
 
-## Description
-This repository provides a ready-to-go development environment for coding productively with InterSystems ObjectScript. This template:
-* Runs InterSystems IRIS Community Edition in a docker container
-* Creates a new namespace and database IRISAPP
-* Loads the ObjectScript code into IRISAPP database using Package Manager
-* Promotes development with the 'Package First' paradigm. [Watch the video](https://www.youtube.com/watch?v=havPyPbUj1I)
-* Provides a unit testing environment: sample unit tests, tests module enablement
-* Ready for embedded python development: ENV varialbes are set up, CallIn service is On, all modules in requirements.txt will be installed during docker build.
-
 ## Usage
 [Create a new user definition](https://iris-user-manager.demo.community.intersystems.com/csp/sys/sec/%25CSP.UI.Portal.User.zen?PID=) using the Online Demo. Enter a username. Copy from _SYSTEM which has %All role. Enter the full user name. Click the radio button to enter a new password. Click the Save button to save your new user.
 
